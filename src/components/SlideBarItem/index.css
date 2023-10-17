@@ -1,0 +1,42 @@
+.slide-bar-item {
+  width: 150px;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: 700px) {
+    width: 50%;
+    margin-right: auto;
+  }
+}
+.slide-bar-item-name-sec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+}
+.slide-bar-item-icon {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.slide-bar-item-name {
+  color: white;
+  font-family: "Roboto";
+  margin-left: 5px;
+  font-size: 15px;
+  @media (min-width: 700px) {
+    font-size: 18px;
+  }
+}
+.slide-bar-navigation {
+  color: white;
+  width: 10%;
+  text-align: right;
+}

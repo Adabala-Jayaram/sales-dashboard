@@ -1,0 +1,266 @@
+.main-container {
+  background-color: whitesmoke;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 15px;
+}
+.main-container-header-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
+}
+.welcome-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.welcome-name {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: black;
+}
+bar-graph {
+  width: 50px;
+}
+
+.hand-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 0px;
+  background-color: whitesmoke;
+}
+.comma {
+  color: black;
+  margin-left: 0px;
+  font-weight: bold;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #9e9e9e;
+  border-radius: 5px;
+  height: 25px;
+  @media (max-width: 700px) {
+    width: 80%;
+    max-width: 300px;
+  }
+}
+.search-icon {
+  color: black;
+  font-size: 16px;
+  background-color: whitesmoke;
+  height: 100%;
+}
+.search-input-value {
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  background-color: whitesmoke;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+.sales-detailes-sec {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  @media (min-width: 701px) {
+    justify-content: flex-start;
+  }
+}
+.graph-overview-bg {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
+}
+.graph-container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  width: 60%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+
+  @media (max-width: 700px) {
+    width: 90%;
+  }
+}
+.graph-container-overview {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: black;
+}
+.bar-graph-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.select-date {
+  background-color: whitesmoke;
+  width: 130px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.bar-graph {
+  width: 100%;
+  height: 280px;
+  border-radius: 15px;
+}
+.monthly-earning-title {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #a4a3a3;
+  margin-top: 0px;
+}
+.customers-container {
+  border-radius: 12px;
+  padding: 15px;
+  background-color: white;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (max-width: 700px) {
+    width: 90%;
+  }
+}
+.customer-sec-title {
+  font-family: "Roboto";
+  font-size: 23px;
+  color: black;
+}
+.customer-sec-description {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #6d6d6d;
+  margin-top: 0px;
+}
+.customer-radial-graph {
+  width: 80%;
+  border-radius: 15px;
+  align-self: center;
+}
+.product-card-bg {
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  width: 100%;
+}
+.product-card-header-sec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
+}
+.product-card-header-title {
+  font-family: "Roboto";
+  font-size: 17px;
+  color: black;
+}
+.sale-date-selection {
+  background-color: whitesmoke;
+  width: 150px;
+  height: 25px;
+  padding: 3px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  @media (max-width: 700px) {
+    margin-top: 10px;
+    width: 50%;
+  }
+}
+.product-card-search-sec {
+  margin-left: auto;
+  @media (max-width: 700px) {
+    width: 50%;
+    margin-left: 10%;
+  }
+}
+
+.product-table-header-names {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid wheat;
+}
+.product-table-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table-titles {
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 12px;
+  color: #a4a3a3;
+}
+.product-items-container {
+  padding-left: 0px;
+}
+.product-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.sale-item-img {
+  width: 50px;
+  height: 35px;
+  border-radius: 6px;
+}
+.product-name {
+  font-size: 10px;
+  color: black;
+  font-family: "Roboto";
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+.product-description {
+  font-family: "Roboto";
+  font-size: 10px;
+  color: #bebebe;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+.product-name-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.stock-detailes-sec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.product-related {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Roboto";
+  font-size: 15px;
+  color: black;
+}
